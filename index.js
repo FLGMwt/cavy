@@ -9,7 +9,8 @@ const Cavy = {
   Tester,
   TestHookStore,
   useCavy,
-  wrap
+  wrap,
+  test: () => console.log('hello world'),
 };
 
 module.exports = Cavy;
